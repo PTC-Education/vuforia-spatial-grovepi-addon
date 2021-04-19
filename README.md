@@ -1,9 +1,6 @@
-# vuforia-spatial-basic-interfaces-addon
+# vuforia-spatial-grovepi-addon
 
-This repository hosts a set of hardware interfaces for DIY and consumer
-hardware. We hope that these interfaces will enable you to easily get started
-creating compelling experiences with the Vuforia Spatial Toolbox and Vuforia
-Spatial Edge Server.
+This repoository contains a hardware interface for the [GrovePi shield](https://www.dexterindustries.com/grovepi/). If you have [installed the Vuforia Spatial Edge Server on a Raspberry Pi with these instructions](https://spatialtoolbox.vuforia.com/docs/vuforia-spatial-edge-server/raspberry-pi), you should be able to install this repo into your addons folder and be ready to use the GrovePi.
 
 ## Read First
 The Vuforia Spatial Toolbox and Vuforia Spatial Edge Server make up a shared research platform for exploring spatial computing as a community. This research platform is not an out of the box production-ready enterprise solution. Please read the [MPL 2.0 license](LICENSE) before use.
@@ -17,11 +14,11 @@ Join the conversations in our [discourse forum](https://forum.spatialtoolbox.vuf
 - LEGO WeDo / Boost: Activate the Hardware interface and push the green button on your Lego Wedo / Boost.
 
 ## Install
-Once you have installed the Vuforia Spatial Edge Server clone this repo into the ```addons``` folder
+Once you have installed the Vuforia Spatial Edge Server, clone this repo into the ```addons``` folder
 
 ```bash
 cd addons
-git clone https://github.com/ptcrealitylab/vuforia-spatial-basic-interfaces-addon.git
+git clone https://github.com/ptc-education/vuforia-spatial-grovepi-addon.git
 ```
 
 Next, enter the vuforia-spatial-basic-interfaces-addon directory and install all dependencies.
