@@ -24,7 +24,7 @@ git clone https://github.com/ptc-education/vuforia-spatial-grovepi-addon.git
 Next, enter the vuforia-spatial-basic-interfaces-addon directory and install all dependencies.
 
 ```bash
-cd vuforia-spatial-basic-interfaces-addon
+cd vuforia-spatial-grovepi-addon
 npm install
 ```
 
